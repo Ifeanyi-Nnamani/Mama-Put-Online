@@ -1,0 +1,22 @@
+MamaPutOnline/
+│
+├── index.html
+├── css/
+│   └── style.css
+│
+├── images/
+│   ├── hero-banner.jpg
+│   ├── egusi.jpg
+│   ├── ogbono.jpg
+│   ├── okro.jpg
+│   ├── edikaikong.jpg
+│   ├── jollof-rice.jpg
+│   ├── fried-rice.jpg
+│   ├── nkwobi.jpg
+│   ├── fried-chicken.jpg
+│   ├── kpomo.jpg
+│   ├── logo.png
+│   └── ...
+│
+├── README.md
+└── LICENSE

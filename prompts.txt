@@ -1,0 +1,53 @@
+Hi Chatgpt, 
+build me landing page of an online take-away Nigerian cooked meal restaurant, let the name of the business  be MamaPutOnline MamaPutOnline selling  different types of cooked soups - egusi, ewedu, ora, edikaikong, okazi, ogbono and okro It also sells jollof rice, fried rice, porridge yam, porridge beans, fried plantain, abacha, nkwobi, fried chicken, kpomo etc. 
+
+
+build the first part 1 and for UI / UX design, let Menu Section's landing page have a - MamaPutOnline logo on the top left hand corner - Menu bar in dark red and or blue with sub titles like Products, Services, Customer Service etc
+
+
+
+In Part 2,  build a visually rich homepage with:
+
+Featured Nigerian Meals
+"Today's Specials" section
+ Menu cards for Egusi, Ogbono, Jollof Rice, Nkwobi, Fried Chicken, Abacha, and more
+Ratings and prices
+ "Most Ordered Meals" badges
+"Order Now" buttons for each meal
+
+Part 3
+
+ Make the homepage look like a professional food ordering website by adding:
+
+1.Complete Food Menu (16–20 Nigerian dishes)
+2.Soups category
+3.Rice Meals category
+4.Protein category
+5.Local Delicacies
+6.Ratings
+7.Prices
+8."Most Ordered" badges
+9."Add to Cart" buttons
+10.Favorite (heart) icon
+Discount ribbons
+
+for Product Each Product Card Will Display
+High-quality food image
+Product name in bold
+Quantity/serving size
+Price in ₦ (Naira)
+Five-star rating
+"Most Ordered" ribbon (for selected items)
+Favourite icon
+
+make Fully responsive design (Desktop, Tablet & Mobile) and apply:
+ 
+1.Beautiful footer styling
+2.Social media icons with hover effects
+3.Contact information
+4.Footer layout
+5.Scrollbar customization
+6. Smooth animations
+
+let the Menu and Footer be sticky. kindly build this using html and css for vscode.
+Thank you
