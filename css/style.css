@@ -562,9 +562,8 @@ header{
 
     min-height:70vh;
 
-    display:grid;
+    display:flex;
 
-    grid-template-columns:1fr 1fr;
 
     align-items:center;
 
@@ -577,17 +576,11 @@ header{
     overflow:hidden;
 
     background-image: url(../images/HERO-IMAGE.jpg);
-    background-position: center;/*centers the image perfectly*/
+    background-position: center 33%;/*centers the image perfectly*/
     background-repeat: no-repeat;/*prevents the image from repeating*/
     background-size: cover;/*scales the image to completely cover the hero section*/
    
 
-    /*linear-gradient(
-        135deg,
-        #650000 0%,
-        #7A0000 50%,
-        #A30000 100%
-    );*/
 
 }
 
