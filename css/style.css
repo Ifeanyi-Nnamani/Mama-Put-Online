@@ -244,7 +244,72 @@ header{
 
 }
 
+/*=========================================================
+                HAMBURGER MENU
+=========================================================*/
 
+/* Hide checkbox */
+
+#menu-toggle{
+
+    display:none;
+
+}
+
+/* Hamburger Button */
+
+.hamburger{
+
+    display:none;
+
+    cursor:pointer;
+
+    width:40px;
+
+}
+
+/* Hamburger Lines */
+
+.hamburger span{
+
+    display:block;
+
+    width:100%;
+
+    height:4px;
+
+    background:#ffffff;
+
+    margin:7px 0;
+
+    border-radius:30px;
+
+    transition:.4s;
+
+}
+/*=========================================================
+            HAMBURGER ANIMATION
+=========================================================*/
+
+#menu-toggle:checked + .hamburger span:nth-child(1){
+
+    transform:rotate(45deg)
+              translate(8px,8px);
+
+}
+
+#menu-toggle:checked + .hamburger span:nth-child(2){
+
+    opacity:0;
+
+}
+
+#menu-toggle:checked + .hamburger span:nth-child(3){
+
+    transform:rotate(-45deg)
+              translate(8px,-8px);
+
+}
 /*=========================================================
                 LOGO
 =========================================================*/
@@ -3675,5 +3740,117 @@ html{
     height:auto;
 
     object-fit:cover;
+
+}
+/*=========================================================
+                MOBILE RESPONSIVE MENU
+=========================================================*/
+
+@media (max-width:768px){
+
+/* Navbar */
+
+.navbar{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+/* Show Hamburger */
+
+.hamburger{
+
+    display:block;
+
+}
+
+/* Search Box */
+
+.search-box{
+
+    width:100%;
+
+    margin-top:15px;
+
+}
+
+/* Hide Menu */
+
+.nav-menu{
+
+    width:100%;
+
+    flex-direction:column;
+
+    background:#7A0000;
+
+    overflow:hidden;
+
+    max-height:0;
+
+    transition:max-height .45s ease;
+
+    margin-top:20px;
+
+}
+
+/* Show Menu */
+
+#menu-toggle:checked ~ .nav-menu{
+
+    max-height:500px;
+
+}
+
+/* Navigation Items */
+
+.nav-menu li{
+
+    width:100%;
+
+}
+
+/* Navigation Links */
+
+.nav-menu li a{
+
+    display:block;
+
+    padding:18px 20px;
+
+    border-bottom:1px solid rgba(255,255,255,.15);
+
+}
+
+/* Full Width Search */
+
+.search-box input{
+
+    width:100%;
+
+}
+
+}
+/*=========================================================
+                DESKTOP MENU
+=========================================================*/
+
+@media (min-width:769px){
+
+.nav-menu{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:30px;
+
+}
 
 }
